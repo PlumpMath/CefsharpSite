@@ -8,14 +8,19 @@ a.button small {
 }
 header a.button {
   position: absolute;
-  right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  top: 30px;
 }
 #b1 {
-  top: 0;
+  right: 410px;
+  background: transparent url(../images/guide-button.png) 0 0 no-repeat;
 }
 #b2 {
-  top: 90px;
+  right: 205px;
+  background: transparent url(../images/nuget-button.png) 0 0 no-repeat;
+}
+#b3 {
+  right: 0;
+  background: transparent url(../images/nuget-button2.png) 0 0 no-repeat;
 }
 
 
@@ -574,14 +579,14 @@ header h1 {
 }
 
 header h2 {
-  width: 540px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
   font-weight: normal;
   line-height: 1.3;
-  color: #9ddcff;
+  color: #BBECFF;
   letter-spacing: 0;
+  text-align: center;
 }
 
 .inner {
